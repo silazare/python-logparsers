@@ -1,5 +1,7 @@
 ## Logparsers scripts
 
+[![Build status](https://travis-ci.org/silazare/python-logparsers.svg?master)](https://travis-ci.org/silazare)
+
 ### Tool for parsing application logs by transaction ID and save filtered result. 
 
 - Features:

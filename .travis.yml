@@ -2,8 +2,8 @@ language: python
 python:
 - '3.6'
 script:
-- python nginx_logparser -log tests/access.log -f general
-- python nginx_logparser -log tests/access.log -f error
+- python nginx_logparser.py -log tests/access.log -f general
+- python nginx_logparser.py -log tests/access.log -f error
 notifications:
   slack:
     secure: Qudqlw61mQPZs9YxAu+HIAVOhhLo1vttjfl896Hy8l3S0v3APHeA97OKV6Inw6dilIMehbFj2gSGvPFAjSb+QdCxPM46BIqVZ/6SkHou+V/+8DH6McKiGQGJJDEyMuUXBgg8Sixcpzd6p/LoO05GgXj6JxXFVjkW7FSH61xIf7ft3kmJsV3AAoQecisFSlUJcccKmJ8fSrILQkhQFQYGApdacFGGG9w175OYpa/QBkbwvhaM6NiAJT0RAEUPIg7nXJDl90q0v3N1IQ89B2zx37SllDItja5URg8Fk/txNbYE8k8WBIt2yjoG1rniO6x5R2XXxkgbT6spyCMUUTupkIorW7GhkYnnoE2cbWtECg7cAgVsd12dzGsIy0igN45L7dl71SbMUqYyVz9ya1/gec4+ESp8n0Z8sEhl0+uMa0KQJedbZBdwEmvuWr/rk7k7luYuZwyL7WN548E1TJ2opZJfKQ0D+Mlk2nUN8WLjer7HkZOul3xugMLYNRA5IDrv8KiwA7xqNHBXhd+VucE6WrMm4T5Gz/N/xAH3ELxnu/NB02IWqKZafB/xjh/gCDeL3DN9Vxv+9OIgbsx951A4EV0xQYJhZHNTC1JefP74ei5wV4Ip9ZR2B25slOeYih7n5SnAwYz28dRgH81sN8BDlJueA9+8khDvrdTPCh1hyp4=
